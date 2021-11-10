@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <style>
+        h3 {
+            font-size: 100%;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 100%;
+            color: black;
+            font-weight: lighter;
+            font-style: normal;
+            font-family: Cambria;
+        }
+        
+        a {
+            color: rgb(194, 141, 141);
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class='h3'>Содержание задания 1:
+        <ul>
+            <li><a href="#000">000_Creating_a_Table</a></li>
+            <li><a href="#001">000_Creating_a_Table_tmp</a></li>
+        </ul>
+    </h3>
+
+    <!--<form action="http://g06u29.nn2000.info/cgi-bin/form_action_file.py" method='get' target='_self'>-->
+    <form action="http://g06u29.nn2000.info/cgi-bin/form_action_db_report.py" method='get' target='_self'>
+        <p>Фамилия: <input type="Text" name="last_name" value="Иванова" size=8> Имя: <input type="Text" name="name" value="Анна" size=8> Идентификатор: <input type="Radio" name="group" value="g03u30" checked>g03u30</p>
+
+        <h3 id="000">000_Creating_a_Table_01; 010_Inserting_Into_Table</h3>
+        <p>Создать таблицу с добавлением полей различного типа. Дополнительно к примеру добавить записи с несколькими значениями по умолчанию
+            <br>
+            <a href="../img/1.PNG" target="_new"><img src="../img/1.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="1" size=1>
+        </p>
+
+        <h3 id="015">015_Selecting_All_Data</h3>
+        <p>Отобразить содержание всей таблицы
+            <br>
+            <a href="../img/015.PNG" target="_new"><img src="../img/015.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="1" size=1>
+        </p>
+
+        <h3 id="025">025_Selecting_ Particular_Rows</h3>
+        <p>Отобразить содержание  четырех полей с названиями колонок
+            <br>
+            <a href="../img/025_Rows.PNG" target="_new"><img src="../img/025_Rows.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="1" size=1>
+        </p>
+
+        <h3 id="025.2">025_Selecting_ Particular_Columns</h3>
+        <p>Отобразить содержание  четырех полей с оригинальными названиями колонок
+            <br>
+            <a href="../img/025.PNG" target="_new"><img src="../img/025.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="1" size=1>
+        </p>
+
+        <h3 id="030">030_Selecting_Particular_Columns</h3>
+        <p>Привести  два оригинальных примера  получения данных из таблицы по условию
+            <br>
+            <a href="../img/030-1.PNG" target="_new"><img src="../img/030-1.PNG" height="50" width="100"></a>
+            <a href="../img/030-2.PNG" target="_new"><img src="../img/030-2.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="1" size=1>
+        </p>
+
+        <h3 id="035">035_Sorting_ Rows</h3>
+        <p>Выполнить запросы сортировок по дате рождения, по полу
+            <br>
+            <a href="../img/2.PNG" target="_new"><img src="../img/2.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="3" size=1>
+        </p>
+
+        <h3 id="040">035_Sorting_ Rows; 040_Data_ Calculations</h3>
+        <p>Привести примеры расчетов с использованием содержания таблицы, Выполнить запросы сортировок по продолжительности жизни
+            <br>
+            <a href="../img/3.PNG" target="_new"><img src="../img/3.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="3" size=1>
+        </p>
+
+        <h3 id="045">045_Pattern Matching</h3>
+        <p>Выполнить два поиска  данных в таблицах с использованием шаблонов
+            <br>
+            <a href="../img/4.PNG" target="_new"><img src="../img/4.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="3" size=1>
+        </p>
+
+        <h3 id="200">000_Creating_a_Table_02</h3>
+        <p>Задание 2, создание дампа бд
+            <br>
+            <a href="../img/dump.PNG" target="_new"><img src="../img/dump.PNG" height="50" width="100"></a>
+            <br>Оценивание, баллов:<input type="Text" name="v_01" value="3" size=1>
+        </p>
+
+        <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+        <br> Название файла: <input type="Техт" name="000_file_name" value="g03u30.txt">
+        <br>Тип записи в файл:
+        <select name="010_mode">
+            <OPTION value="a">a - дозаписать в файл</OPTION> 
+            <OPTION value="w">w - очисить файл и записать в файл</OPTION> 
+        </select>
+        </font>
+        </p>
+        <input type="hidden" name="function" value="page">
+        <input type="hidden" name="page_id" value="3">
+        <p>
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+
+</html>
